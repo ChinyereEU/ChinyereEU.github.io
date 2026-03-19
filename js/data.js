@@ -64,7 +64,7 @@ const DATA = {
       statusLabel: "Completed",
       desc: "ML text classification pipeline using TF-IDF, cosine similarity, and 20+ engineered linguistic features to detect misinformation with reduced data leakage.",
       tags: ["NLP", "TF-IDF", "Feature Engineering"],
-      link: "https://github.com/ChinyereEU",
+      link: "https://github.com/Accenture-1a-BTT/accenture-1a-team-project",
     },
     {
       title: "Airbnb NYC Price Prediction",
@@ -72,7 +72,7 @@ const DATA = {
       statusLabel: "Completed",
       desc: "Validated regression model on 40K+ listings with 5-fold CV identifying key price variability drivers across neighborhood, amenity, and host-level features.",
       tags: ["Regression", "Cross-validation"],
-      link: "https://github.com/ChinyereEU",
+      link: "https://github.com/ChinyereEU/My-eCornell-Portfolio",
     },
   ],
 
