@@ -43,6 +43,14 @@ const DATA = {
 
   projects: [
     {
+        title: "Student Organizations Survey Data Integration",
+        status: "done",
+        statusLabel: "Completed",
+        desc: "Integrated survey responses with 941 university club records via institutional API, building fuzzy-matching pipelines in R to standardize names, resolve duplicates, and link unstructured inputs to official identifiers.",
+        tags: ["R", "Fuzzy Matching", "API", "Data Cleaning"],
+        link: null,
+    },
+    {
       title: "COVID-19 Early Detection & Surveillance (NJ)",
       status: "active",
       statusLabel: "In Progress",
