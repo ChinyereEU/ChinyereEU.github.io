@@ -1,0 +1,82 @@
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* ── NAV ── */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2rem;
+  background: var(--bg);
+  border-bottom: 0.5px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--teal-600);
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.nav-links a {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+  transition: color var(--transition-fast);
+}
+
+.nav-links a:hover {
+  color: var(--teal-600);
+}
+
+/* ── CONTAINER ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── SECTIONS ── */
+section {
+  border-bottom: 0.5px solid var(--border);
+}
+
+.section-inner {
+  padding: var(--space-12) 0;
+}
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--teal-400);
+  margin-bottom: 1.75rem;
+}
+
+/* ── FOOTER ── */
+footer {
+  text-align: center;
+  padding: var(--space-6);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--gray-400);
+  text-transform: uppercase;
+}

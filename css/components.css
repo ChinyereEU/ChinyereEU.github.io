@@ -1,0 +1,119 @@
+/* ── BUTTONS ── */
+.btn {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  letter-spacing: 0.02em;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--teal-600);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--teal-800);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 0.5px solid var(--border-med);
+}
+
+.btn-ghost:hover {
+  color: var(--text-primary);
+  border-color: rgba(44, 44, 42, 0.4);
+}
+
+/* ── BADGES ── */
+.badge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.badge-teal  { background: var(--teal-50);  color: var(--teal-800); }
+.badge-amber { background: var(--amber-50); color: var(--amber-600); }
+.badge-coral { background: var(--coral-50); color: var(--coral-400); }
+
+/* ── SKILL TAGS ── */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.skill-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  padding: 0.22rem 0.55rem;
+  border-radius: var(--radius-sm);
+}
+
+/* ── PROJECT TAGS ── */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+}
+
+.project-tag {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--teal-600);
+  background: var(--teal-50);
+  padding: 0.22rem 0.55rem;
+  border-radius: var(--radius-sm);
+}
+
+/* ── STATUS PILLS ── */
+.project-status {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.status-active { background: var(--teal-50);  color: var(--teal-800); }
+.status-done   { background: var(--gray-50);  color: var(--gray-800); }
+
+/* ── CONTACT LINKS ── */
+.contact-link {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--teal-600);
+  padding: 0.5rem 1.1rem;
+  border: 0.5px solid var(--teal-100);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.contact-link:hover {
+  background: var(--teal-50);
+}

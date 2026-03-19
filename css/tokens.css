@@ -1,0 +1,58 @@
+:root {
+  /* Color palette */
+  --teal-50:    #E1F5EE;
+  --teal-100:   #9FE1CB;
+  --teal-400:   #1D9E75;
+  --teal-600:   #0F6E56;
+  --teal-800:   #085041;
+
+  --amber-50:   #FAEEDA;
+  --amber-600:  #854F0B;
+
+  --coral-50:   #FAECE7;
+  --coral-400:  #D85A30;
+
+  --gray-50:    #F1EFE8;
+  --gray-100:   #D3D1C7;
+  --gray-400:   #888780;
+  --gray-800:   #444441;
+  --gray-900:   #2C2C2A;
+
+  /* Semantic */
+  /* --bg: #FAFAF8; */
+  /* --bg: #F0F2EE; */
+  --bg:             #E8EDE4;
+  /* --bg-surface:     #FFFFFF;
+  --bg-secondary:   #F4F3EF; */
+  --bg-surface:      #F5F8F2;  
+  --bg-secondary:    #EBF0E7;  
+  --text-primary:   #1A1A18;
+  --text-secondary: #5F5E5A;
+  --border:         rgba(44, 44, 42, 0.12);
+  --border-med:     rgba(44, 44, 42, 0.22);
+
+  /* Typography */
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans:  'DM Sans', system-ui, sans-serif;
+  --font-mono:  'DM Mono', 'Courier New', monospace;
+
+  /* Spacing scale */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Radii */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-med:  0.25s ease;
+}
