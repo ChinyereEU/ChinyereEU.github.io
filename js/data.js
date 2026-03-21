@@ -16,7 +16,7 @@ const DATA = {
         "Led multi-campus administration of the Undergraduate Experience Survey across 40,000+ students in Qualtrics",
         "Built fuzzy-matching & duplicate-resolution workflows in R to integrate 941 student org records from the Engage API",
         "Conducted longitudinal cohort analyses on engagement, retention, and equity gaps for strategic planning",
-        "Developed an M-index dining utilization algorithm (n = 4,800+, p < 0.001) for evidence-based resource allocation",
+        "Developed an M-index dining utilization algorithm (n = 4,800+, p < 0.001) for evidence-based resource allocation - <a href='https://studentaffairs.rutgers.edu/news/more-meal-new-data-dining-halls-social-connectedness-and-retention' target='_blank' rel='noopener' class='news-link'>↗ Featured in Rutgers News</a>",
         "Produced executive dashboards translating survey data into actionable insights for academic stakeholders",
         "Collaborated with academic units to align analyses with institutional priorities and support data-informed decisions",
       ],

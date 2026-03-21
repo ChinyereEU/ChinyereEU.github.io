@@ -117,3 +117,27 @@
 .contact-link:hover {
   background: var(--teal-50);
 }
+
+/* ── NEWS LINK ── */
+.news-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--teal-600);
+  background: var(--teal-50);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-sm);
+  border: 0.5px solid var(--teal-100);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.news-link:hover {
+  background: var(--teal-100);
+  color: var(--teal-800);
+}
