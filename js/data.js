@@ -44,7 +44,7 @@ const DATA = {
   projects: [
     {
         title: "Student Organizations Survey Data Integration",
-        status: "done",
+        status: "active",
         statusLabel: "In Progress",
         desc: "Integrated survey responses with 941 university club records via institutional API, building fuzzy-matching pipelines in R to standardize names, resolve duplicates, and link unstructured inputs to official identifiers.",
         tags: ["R", "Fuzzy Matching", "API", "Data Cleaning"],
@@ -60,7 +60,7 @@ const DATA = {
     },
     {
       title: "WiDS 2026 — Wildfire Survival Model",
-      status: "active",
+      status: "done",
       statusLabel: "Completed",
       desc: "Discrete-time survival model predicting wildfire proximity to evacuation zones at 12h / 24h / 48h / 72h horizons using gradient-boosted hazard estimation.",
       tags: ["Survival Analysis", "XGBoost", "Brier Score CV"],
