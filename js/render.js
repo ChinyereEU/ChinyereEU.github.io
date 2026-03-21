@@ -30,6 +30,10 @@ function renderProjects(items) {
       ? `<a href="${item.link}" target="_blank" rel="noopener" class="project-tag">GitHub →</a>`
       : '';
 
+    const demoTag = item.demo
+      ? `<a href="${item.demo}" target="_blank" rel="noopener" class="project-tag" style="background:var(--teal-100); color:var(--teal-800);">↗ Live Demo</a>`
+      : '';
+
     return `
       <div class="project-card">
         <div class="project-card-header">
@@ -40,6 +44,7 @@ function renderProjects(items) {
         <div class="project-tags">
           ${tagsHTML}
           ${githubTag}
+          ${demoTag}
         </div>
       </div>
     `;

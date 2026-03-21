@@ -70,9 +70,10 @@ const DATA = {
       title: "Fake News Categorization (~45,000 articles)",
       status: "done",
       statusLabel: "Completed",
-      desc: "ML text classification pipeline using TF-IDF, cosine similarity, and 20+ engineered linguistic features to detect misinformation with reduced data leakage.",
-      tags: ["NLP", "TF-IDF", "Feature Engineering"],
-      link: "https://github.com/Accenture-1a-BTT/accenture-1a-team-project",
+      desc: "NLP-based fake news classification pipeline achieving 98.33% accuracy. Built with Python, TF-IDF, and Random Forest. Includes a live interactive demo.",
+      tags: ["NLP", "TF-IDF", "Feature Engineering", "Random Forest", "Streamlit"],
+      link: "https://github.com/ChinyereEU/fake-news-detector",
+      demo: "https://fake-news-detector-ceu.streamlit.app",
     },
     {
       title: "Airbnb NYC Price Prediction",
