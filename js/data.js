@@ -61,10 +61,10 @@ const DATA = {
     {
       title: "WiDS 2026 — Wildfire Survival Model",
       status: "active",
-      statusLabel: "In Progress",
+      statusLabel: "Completed",
       desc: "Discrete-time survival model predicting wildfire proximity to evacuation zones at 12h / 24h / 48h / 72h horizons using gradient-boosted hazard estimation.",
       tags: ["Survival Analysis", "XGBoost", "Brier Score CV"],
-      link: null,
+      link: "https://github.com/ChinyereEU/WiDSWorldWide_GlobalDathon26",
     },
     {
       title: "Fake News Categorization (~45,000 articles)",
