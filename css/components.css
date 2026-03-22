@@ -2,9 +2,9 @@
 .btn {
   display: inline-block;
   font-family: var(--font-sans);
-  font-size: 13px;
-  font-weight: 500;
-  padding: 0.6rem 1.25rem;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.65rem 1.35rem;
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all var(--transition-fast);
@@ -35,11 +35,11 @@
 /* ── BADGES ── */
 .badge {
   font-family: var(--font-mono);
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 600;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  padding: 0.4rem 0.85rem;
+  padding: 0.45rem 0.9rem;
   border-radius: var(--radius-sm);
   text-align: center;
   white-space: nowrap;
@@ -58,10 +58,11 @@
 
 .skill-tag {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
+  font-weight: 500;
   color: var(--text-secondary);
   background: var(--bg-secondary);
-  padding: 0.22rem 0.55rem;
+  padding: 0.28rem 0.6rem;
   border-radius: var(--radius-sm);
 }
 
@@ -103,12 +104,12 @@
 /* ── CONTACT LINKS ── */
 .contact-link {
   font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--teal-600);
-  padding: 0.5rem 1.1rem;
+  padding: 0.55rem 1.2rem;
   border: 0.5px solid var(--teal-100);
   border-radius: var(--radius-sm);
   transition: all var(--transition-fast);

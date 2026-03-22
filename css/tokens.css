@@ -55,4 +55,10 @@
   /* Transitions */
   --transition-fast: 0.18s ease;
   --transition-med:  0.25s ease;
+
+  /* add this to the bottom of :root */
+--font-size-base: 16px;
+--font-size-sm: 13px;
+--font-size-xs: 11px;
+--font-size-mono: 11px;
 }
