@@ -205,9 +205,88 @@ h1 em {
 }
 
 /* ── PROJECTS ── */
+.project-img-wrap {
+  position: relative;
+  cursor: zoom-in;
+  margin: 10px 0 4px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 0.5px solid var(--border);
+}
+
+.project-img {
+  width: 100%;
+  display: block;
+  transition: filter 0.2s ease;
+  transition: filter 0.2s ease;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.project-img-wrap:hover .project-img {
+  filter: brightness(0.85);
+}
+
+.project-img-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.project-img-wrap:hover .project-img-overlay {
+  opacity: 1;
+}
+
+/* Lightbox */
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+
+#lightbox.open {
+  display: flex;
+}
+
+#lightbox img {
+  max-width: 92vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+
+/* .projects-grid {
+  columns: 2;
+  column-gap: 1px;
+  background: var(--border);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  grid-auto-rows: min-content;
+} */
+
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "orgs      covid"
+    "surveylist wids"
+    "surveylist fakenews"
+    "empty      airbnb";
   gap: 1px;
   background: var(--border);
   border: 0.5px solid var(--border);
@@ -221,7 +300,17 @@ h1 em {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  /* break-inside: avoid;        prevents a card from splitting across columns */
+  /* margin-bottom: 1px;         replaces the gap between rows */
+  /* align-self: start; */
 }
+
+.project-card:nth-child(1) { grid-area: orgs; }
+.project-card:nth-child(2) { grid-area: surveylist; }
+.project-card:nth-child(3) { grid-area: covid; }
+.project-card:nth-child(4) { grid-area: wids; }
+.project-card:nth-child(5) { grid-area: fakenews; }
+.project-card:nth-child(6) { grid-area: airbnb; }
 
 .project-card-header {
   display: flex;

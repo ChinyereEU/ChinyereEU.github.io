@@ -27,7 +27,7 @@ function renderProjects(items) {
       .join('');
 
     const githubTag = item.link
-      ? `<a href="${item.link}" target="_blank" rel="noopener" class="project-tag">GitHub →</a>`
+      ? `<a href="${item.link}" target="_blank" rel="noopener" class="project-tag">${item.linkLabel || 'GitHub →'}</a>`
       : '';
 
     const demoTag = item.demo
@@ -41,6 +41,11 @@ function renderProjects(items) {
           <span class="project-status status-${item.status}">${item.statusLabel}</span>
         </div>
         <p class="project-desc">${item.desc}</p>
+        ${item.image ? `
+          <div class="project-img-wrap" onclick="openLightbox('${item.image}', '${item.imageAlt || ''}')">
+            <img src="${item.image}" alt="${item.imageAlt || ''}" class="project-img">
+            <div class="project-img-overlay">Click to expand</div>
+          </div>` : ''}
         <div class="project-tags">
           ${tagsHTML}
           ${githubTag}

@@ -2,7 +2,7 @@
  * data.js
  * -------
  * All portfolio content lives here.
- * Edit this file to update your experience, projects, presentations, and education.
+ * Edit this file to update experience, projects, presentations, and education.
  */
 
 const DATA = {
@@ -14,6 +14,8 @@ const DATA = {
       org: "Rutgers – Office of Institutional Research & Decision Support",
       bullets: [
         "Led multi-campus administration of the Undergraduate Experience Survey across 40,000+ students in Qualtrics",
+        "Identified a Qualtrics anomaly affecting 950 respondents; built corrective workflows to maintain pipeline integrity",
+        "Executed large-scale roster QA across three campuses using R, Python, SPSS, and Excel",
         "Built fuzzy-matching & duplicate-resolution workflows in R to integrate 941 student org records from the Engage API",
         "Conducted longitudinal cohort analyses on engagement, retention, and equity gaps for strategic planning",
         "Developed an M-index dining utilization algorithm (n = 4,800+, p < 0.001) for evidence-based resource allocation - <a href='https://studentaffairs.rutgers.edu/news/more-meal-new-data-dining-halls-social-connectedness-and-retention' target='_blank' rel='noopener' class='news-link'>↗ Featured in Rutgers News</a>",
@@ -49,6 +51,19 @@ const DATA = {
         desc: "Integrated survey responses with 941 university club records via institutional API, building fuzzy-matching pipelines in R to standardize names, resolve duplicates, and link unstructured inputs to official identifiers.",
         tags: ["R", "Fuzzy Matching", "API", "Data Cleaning"],
         link: null,
+    },
+    {
+      title: "SurveyList Webpage Rebuild",
+      status: "done",
+      statusLabel: "Completed",
+      desc: `Rebuilt the OIRDS Survey Research Program site from scratch — audience-segmented sub-pages (undergraduate, graduate, faculty, 
+              staff), structured data tables, full navigation, header, and footer. 
+              Now live at oirds.rutgers.edu.`,
+      tags: ["HTML", "CSS"],
+      link: "https://oirds.rutgers.edu/surveys/SurveysList.html",
+      linkLabel: "Live Site →",
+      image: "../assets/oirds-before-after.png",
+      imageAlt: "Before and after comparison of the OIRDS SurveyList webpage redesign",
     },
     {
       title: "COVID-19 Early Detection & Surveillance (NJ)",

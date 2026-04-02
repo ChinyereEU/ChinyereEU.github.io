@@ -5,8 +5,26 @@
  * and handles any interactivity (nav highlight, etc.).
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+// ── Lightbox — must be global so onclick in render.js can reach them ──
+function openLightbox(src, alt) {
+    const lb = document.getElementById('lightbox');
+    document.getElementById('lightbox-img').src = src;
+    document.getElementById('lightbox-img').alt = alt;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+}
 
+function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+}
+
+// Also close on Escape key
+document.addEventListener('keydown', e => {
+if (e.key === 'Escape') closeLightbox();
+});
+
+document.addEventListener('DOMContentLoaded', () => {
   // ── Mount dynamic sections ──
     document.getElementById('exp-list').innerHTML      = renderExperience(DATA.experience);
     document.getElementById('projects-grid').innerHTML = renderProjects(DATA.projects);
