@@ -103,6 +103,11 @@ const DATA = {
   presentations: [
     {
       year: "2026",
+      title: "Excellence in Career Readiness Award - Professionalism Category",
+      venue: "Rutgers University Career Exploration and Success Center · Selected as one of eight recipients institution-wide.",
+    },
+    {
+      year: "2026",
       title: "From Survey to Success: Predicting First-Year Retention Through Longitudinal Data Analysis",
       venue: "American Educational Research Association (AERA) Annual Meeting — Co-author",
     },
